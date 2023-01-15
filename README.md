@@ -2,34 +2,33 @@
 
 ## ✍🏻 Project Structure
 ```
+
 │
-├─ DWU-Dev-Backend-Study
+├─ isprogrammingfun (dir)
+│     │ 
+│     ├─  1주차 (dir) 
+│     │    ├─ README.md // 해당 주차에서 정리할 부분
+│     │    ├─ gradle/wrapper // 해당 주차에서 작성한 코드가 있다면 같이 올려주세요
+│     │    ├─ src
+│     │    ├─ .gitignore
+│     │    ├─ build.gradle
+│     │    ├─ gradlew
+│     │    ├─ gradlew.bat
+│     │    └─ settings.gradle
 │     │
-│     ├─ isprogrammingfun (dir)
-│     │     │ 
-│     │     ├─  1주차 (dir) 
-│     │     │    ├─ README.md // 해당 주차에서 정리할 부분
-│     │     │    ├─ gradle/wrapper // 해당 주차에서 작성한 코드가 있다면 같이 올려주세요
-│     │     │    ├─ src
-│     │     │    ├─ .gitignore
-│     │     │    ├─ build.gradle
-│     │     │    ├─ gradlew
-│     │     │    ├─ gradlew.bat
-│     │     │    └─ settings.gradle
-│     │     │
-│     │     ├─ 2주차 (dir)
-│     │     │    └─ .. 이하 동일
-│     │     │
-│     │     ├─ 3주차 (dir)
-│     │     │    └─ .. 이하 동일
-│     │     │
-│     │     ├─ 4주차 (dir)
-│     │     │    └─ .. 이하 동일
-│     │     │
-│     │     │
-│     │     └─ 5주차 (dir)
-│     │     │    └─ .. 이하 동일
-│     ├─ .. 이하 동일
+│     ├─ 2주차 (dir)
+│     │    └─ .. 이하 동일
+│     │
+│     ├─ 3주차 (dir)
+│     │    └─ .. 이하 동일
+│     │
+│     ├─ 4주차 (dir)
+│     │    └─ .. 이하 동일
+│     │
+│     │
+│     └─ 5주차 (dir)
+│     │    └─ .. 이하 동일
+├─ .. 이하 동일
 │ 
 │
 ```
@@ -41,8 +40,7 @@
 - clone 후, InteliJ에서 해당 프로젝트를 열어주세요.
 - 위에 패키지 구조처럼 본인 폴더를 생성해주세요.
 
-> DWU-Dev-Backend-Study (프로젝트 루트 디렉토리)
-> 
+
 > - 본인 github 아이디명의 디렉토리
 >     - 1주차
 >         - 해당 주차 정리한 .md 파일
