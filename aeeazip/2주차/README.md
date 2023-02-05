@@ -1,16 +1,20 @@
-### Spring Study 2주차
+# Spring Study 2주차
 
-### 기본 설정
+2023.01.22 [정채원] 2주차 스터디 제출합니다. 
 
-<img src="https://user-images.githubusercontent.com/97737822/213915140-ccc5478a-5825-448e-8694-7174eff14a30.png" width="1000" height="300" />
+## 기본 설정
+
+<img src="https://user-images.githubusercontent.com/97737822/213915140-ccc5478a-5825-448e-8694-7174eff14a30.png" width="900" height="400" />
 
 1. 카카오 developer에서 API Key 발급받기
 
 2. 플랫폼 설정 (Redirect URI 등록)
 
-### 카카오 소셜 로그인
 
-<img src="https://user-images.githubusercontent.com/97737822/213914918-ed8d3106-c75f-4444-8a83-3b84f30e70d5.png" width="1000" height="300" />
+
+## 카카오 소셜 로그인
+
+<img src="https://user-images.githubusercontent.com/97737822/213914918-ed8d3106-c75f-4444-8a83-3b84f30e70d5.png" width="900" height="400" />
 
 1. 클라이언트가 로그인
 
