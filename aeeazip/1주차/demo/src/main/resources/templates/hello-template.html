@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!-- thymeleaf이기 때문에 th 태그 사용 -->
+<!-- 절대 경로로 파일을 열면 hello! empty 출력 -> 파일 껍데기 테스트 가능 -->
+<p th:text="'안녕하세요. ' + ${name}" >hello! empty</p>
+</body>
+</html>
