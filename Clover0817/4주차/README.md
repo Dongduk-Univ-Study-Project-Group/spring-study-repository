@@ -36,7 +36,7 @@ Spring JDBC는 기존 JDBC의 장점과 단순성을 그대로 유지하면서 *
 - Spring JDBC를 사용하려면 먼저, **DB 커넥션을 가져오는 DataSource를 Bean으로 등록해야**
 
 
-<br><br>
+<br>
 **작업 예시)**
 
 -**Connection 열기와 닫기**
@@ -75,7 +75,7 @@ Spring JDBC는 기존 JDBC의 장점과 단순성을 그대로 유지하면서 *
 - **실행** : Insert나 Update같이 DB의 데이터에 변경이 일어나는 쿼리를 수행하는 작업
 - **조회** : Select를 이용해 데이터를 조회하는 작업
 - **배치** : 여러 개의 쿼리를 한 번에 수행해야 하는 작업
-
+<br><br>
 # |MVC
 
 ### 1)모델(Model) 컴포넌트
