@@ -5,9 +5,11 @@
 - 스프링 JdbcTemplate : 중복을 모두 제거해서 만든 기술 -> 애플리케이션에서 데이터베이스를 편리하게 다룰 수 있음
 - JPA : 쿼리를 개발자가 직접 짜지 않고 JPA가 등록, 수정, 삭제, 조회 쿼리를 만들어서 날려준다. 객체를 쿼리없이 바로 DB에 저장할 수 있다. 
 
+<hr/>
+
 ### 순수 Jdbc
 
-| 환경 설정
+> 환경 설정
 
 - build.gradle 파일에 jdbc, mysql 데이터베이스 관련 라이브러리 추가
 ```
@@ -32,12 +34,15 @@ spring.datasource.password=계정 비밀번호
 
 - 스프링 DI (Dependencies Injection)을 사용하면 기존 코드를 수정하지 안혹, 설정마능로 구현 클래스를 변경 가능
 
+<hr/>
 
 ### 스프링 JdbcTemplate
 
 - 순수 Jdbc와 동일한 환경설정을 하면 된다.
 
 - 스프링 JdbcTemplate과 MyBatis 같은 라이브러리는 JDBC API에서 본 반복 코드를 대부분 제거해주지만, 쿼리문은 직접 작성해야 한다.
+
+<hr/>
 
 ### JPA
 
@@ -48,7 +53,7 @@ spring.datasource.password=계정 비밀번호
 - JPA를 사용하면 개발 생산성을 크게 높일 수 있다.
 
 
-#### 환경 설정
+> 환경 설정
 
 - build.gradle 파일에 JPA, mysql 데이터 베이스 관련 라이브러리 추가
 ```
@@ -82,6 +87,8 @@ spring.jpa.hibernate.ddl-auto=none
 
 - ddl-auto : JPA는 테이블을 자동으로 생성하는 기능을 제공하는데 none을 사용하면 해당 기능을 끈다.
 	- create를 사용하면 엔티티 정보를 바탕으로 테이블도 직접 생성해준다.
+
+<hr/>
 
 ### Annotation 정리
 - @SpringBootTest : 스프링 컨테이너와 테스트를 함께 실행한다.
