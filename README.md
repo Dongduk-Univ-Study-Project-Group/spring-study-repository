@@ -9,6 +9,7 @@
 | aeeazip | 2주차, 3주차 |
 | isprogrammingfun | 3주차 |
 | yubin21 | - |
+| ddyearn | - |
 
 ## ✍🏻 Project Structure
 ```
