@@ -6,7 +6,7 @@
 | --- | --- |
 | Clover0817 | 2주차, 3주차 |
 | yu-heejin | 4주차 |
-| aeeazip | 2주차, 3주차 |
+| aeeazip | 3주차 |
 | isprogrammingfun | 3주차 |
 | yubin21 | - |
 | ddyearn | - |
