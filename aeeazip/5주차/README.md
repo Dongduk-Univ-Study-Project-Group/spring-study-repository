@@ -4,12 +4,14 @@
 
 자바 진영의 ORM 기술 표준으로 애플리케이션과 JDBC 사이에서 동작한다. 
 
-<img src="https://user-images.githubusercontent.com/97737822/218313587-eb806f99-1d5d-41b5-8217-2a83760ee078.png" width="500" height="300" />
+<img src="https://user-images.githubusercontent.com/97737822/218313587-eb806f99-1d5d-41b5-8217-2a83760ee078.png" width="700" height="300" />
 
 > 동작원리
 1. 개발자가 JPA에게 명령한다.
 2. JPA가 JDBC API 사용해서 SQL 호출한다.
 3. 결과를 받아서 동작한다. 
+
+<hr/>
 
 ### JPA 장점
 
@@ -31,6 +33,8 @@ JPA는 애플리케이션과 데이터베이스 사이에서 동작한다.
 > 데이터 접근 추상화와 벤더 독립성
 데이터베이스의 종류에 구애받지 않기 때문에 기술에 종속되지 않을 수 있다. 
 데이터베이스를 변경하게되면 JPA에게 다른 데이터베이스를 사용한다고 알려주기만 하면 된다.
+
+<hr/>
 
 ### JPA 명명 규칙
 
