@@ -38,6 +38,8 @@ dependencies {
     // springBootVersion 명시하지 않은 경우 dependencies에서 특정 버전 명시 가능
 
     implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.projectlombok:lombok')
+    implementation 'org.projectlombok:lombok:1.18.22'
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
