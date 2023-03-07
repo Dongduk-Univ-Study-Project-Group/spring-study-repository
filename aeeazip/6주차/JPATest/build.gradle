@@ -1,0 +1,63 @@
+// 프로젝트 플러그인 의존성 관리를 위한 설정
+buildscript{
+    // ext
+    // 1. build.gradle에서 사용하는 전역변수를 설정하겠다는 의미
+    // 2. springBootVersion 전역변수를 생성 및 값 설정 (AOP로 부여받겠다는 뜻)
+    ext{
+        springBootVersion = '2.1.7.RELEASE'
+    }
+    repositories{
+        mavenCentral()
+        jcenter()
+    }
+    dependencies{
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+// 자바와 스프링 부트를 사용하기 위한 필수 플러그인
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management' // 필수 : 스프링 부트의 의존성을 관리하는 플러그인
+
+/*
+apply plugin 대신 사용 가능
+
+plugins{
+    id 'java'
+    id 'org.springframework.boot' version '2.7.7'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+configurations{
+    compileOnly{
+        extendsFrom annotationProcessor
+    }
+}
+*/
+group 'org.example'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+// repositories는 각종 의존성(라이브럴)를 어떤 원격 저장소에서 받을지를 정한다
+repositories {
+    // 기본적으로 mavenCentral 많이 사용 > 최근 라이브러리 업로드 난이도 때문에 jcenter도 많이 사용
+    mavenCentral()
+}
+
+// 프로젝트 개발에 필요한 의존성들을 선언하는 곳
+dependencies {
+    // compile 메소드 안에 라이브러리의 이름의 앞부분만 추가 (Ctrl + space) : 자동완선
+    // buildscript 사용하는 경우 : 특정 버전 명시 X -> 그래야 위에서 명시한 springBootVersion을 따라 감
+    // springBootVersion 명시하지 않은 경우 dependencies에서 특정 버전 명시 가능
+
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
